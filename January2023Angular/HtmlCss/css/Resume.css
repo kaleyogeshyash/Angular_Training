@@ -1,0 +1,35 @@
+  .container {
+
+    border: #a4766b;
+    border-width: 2x;
+    border-style: solid;
+    width: 60%;
+    margin: auto;
+    
+
+  }
+
+  .header {
+    border: #a4766b;
+    color: #184261;
+    background-color: #cfcdcc;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 28px;
+    letter-spacing: 3px;
+
+
+  }
+
+  .data {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .educationData {
+    margin-top: 30px;
+  }
