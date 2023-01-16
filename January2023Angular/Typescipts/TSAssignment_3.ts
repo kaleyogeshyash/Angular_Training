@@ -1,21 +1,21 @@
 
 // check Palindrome 
 
-function checkPalindrome(sample: string) {
+function checkPalindrome(string:string) {
 
-   
-    let Palidrndrome = (sample) => {
-        const len = sample.length;
-        for (let i = 0; i < len / 2; i++) {
-            if (sample[i] !== sample[len - 1 - i]) {
-                console.log('It is not a palindrome');
-            }
+    const len = string.length;
+    
+    for (let i = 0; i < len / 2; i++) {
+
+        // check if first and last string are same
+        if (string[i] !== string[len - 1 - i]) {
+            return 'It is not a palindrome';
         }
-        console.log('It is a palindrome');
     }
+    return 'It is a palindrome';
 }
 
 //Test
-const sample = "TestString";
-checkPalindrome(sample);
-
+const sample2 = "radar";
+const value = checkPalindrome(sample2);
+console.log(value);
