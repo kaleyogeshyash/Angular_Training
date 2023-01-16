@@ -1,7 +1,7 @@
 
 // check Palindrome 
 
-function checkPalindrome(string:string) {
+let Palindrome=(string:string)=> {
 
     const len = string.length;
     
@@ -12,10 +12,9 @@ function checkPalindrome(string:string) {
             return 'It is not a palindrome';
         }
     }
-    return 'It is a palindrome';
-}
+    return 'It is a palindrome';};
 
 //Test
 const sample2 = "radar";
-const value = checkPalindrome(sample2);
-console.log(value);
+console.log(Palindrome(sample2));
+
